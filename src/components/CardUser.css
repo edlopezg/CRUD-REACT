@@ -1,0 +1,39 @@
+body, h2, ul {
+    margin: 0;
+}
+ul{
+    padding-left: 0;
+    list-style: none;
+}
+
+.App {
+    display: flex;
+    justify-content: center;
+    gap:40px;
+    flex-wrap: wrap;
+    padding:40px;
+}
+
+.card-container{
+   
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        gap: 15px;
+        padding: 20px;
+        background-color: #fdfdfd;
+        box-shadow: 3px 3px 3px #c1c1c1;
+        color: #5c5a5a;
+        border-radius: 12px;
+        width: min(250px);
+    }
+
+
+
+
+.btn-delete{
+    margin-top: 10px;
+    color:red;
+}
+
+
